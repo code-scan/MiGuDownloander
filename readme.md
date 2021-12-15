@@ -11,3 +11,5 @@
 有go经验的稍微改动一下就你跑起来了。
 
 Gui部分采用[wails 1.6](https://wails.app/)进行的开发。
+
+**默认下载的SQ（无损版本）若要下载HQ可以在main.go中main函数里加上`migu.Type="HQ"`**
