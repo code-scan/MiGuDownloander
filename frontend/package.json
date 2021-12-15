@@ -1,0 +1,61 @@
+{
+    "name": "migugui",
+    "author": "<>",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@wailsapp/runtime": "^1.0.10",
+        "core-js": "^3.6.4",
+        "element-ui": "^2.15.6",
+        "regenerator-runtime": "^0.13.3",
+        "vue": "^2.6.11"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^4.2.3",
+        "@vue/cli-plugin-eslint": "^4.2.3",
+        "@vue/cli-service": "^4.2.3",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.8.0",
+        "eslint-plugin-vue": "^6.2.1",
+        "eventsource-polyfill": "^0.9.6",
+        "vue-template-compiler": "^2.6.11",
+        "webpack-hot-middleware": "^2.25.0"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "rules": {},
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all",
+            "ie 11"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version",
+            "ie 11"
+        ]
+    }
+}
