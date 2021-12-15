@@ -1,5 +1,7 @@
 # 咪咕音乐下载器
 
+![](build/image.png)
+
 开发过程 ： [https://www.bilibili.com/video/BV1tP4y1G7rL/](https://www.bilibili.com/video/BV1tP4y1G7rL/)
 
 已编译的文件在build文件夹中
